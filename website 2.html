@@ -1,0 +1,80 @@
+<html>
+<head>
+<style>
+
+.floating{
+background-color:blue;
+color:yellow;
+padding:20px;
+width:50%;
+left:25%;
+position:relative;
+
+}
+
+body{
+font-size: 3em;
+}
+
+footer{
+position:absolute;
+bottom:20px
+}
+
+</style>
+</head>
+<body>
+<div class="floating" style="color:red">Hello</div> 
+
+1
+2
+3<br>
+<div style="background-color:green; padding:40px;">
+	<a href = "websitel.html">Go to first page</a>
+
+	<div class="floating" onclick="javascript:HelloSomething('Yit Huan')">Myself</div>
+	<button class="floating" onclick="javascript:HowdySomething('Yit Huan')"> Click Me</button>
+</div>
+
+</body>
+
+<script>
+
+function HelloSomething(a){
+alert("Hello " + a);
+} 
+
+
+function HowdySomething(a){
+console.log("Howdy " + a);
+} 
+
+a = "Yit Huan"
+
+b = [10,12,53,4,5];
+
+/*
+//for( var num = 4; num >=0; num--){
+for( num in b ){
+	if( num < 3){
+		HelloSomething( b[num] );
+	}else{
+		HowdySomething( b[num] );
+	
+	}
+}
+
+num = 0;
+while( num < 5){
+ // do something
+ 
+	HelloSomething( b[num] );
+ num++;
+}
+*/
+</script>
+
+<footer>
+Copyright 2018 Yit Huan
+</footer>
+</html>

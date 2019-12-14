@@ -1,0 +1,26 @@
+
+.floating{
+background-color:blue;
+color:yellow;
+padding:20px;
+width:50%;
+left:25%;
+position:relative;
+
+}
+
+body{
+font-size: 3em;
+}
+
+footer{
+position:absolute;
+bottom:20px
+}
+
+#A{
+	    width: 25%;
+    height: 100%;
+    float: left;
+	
+}
